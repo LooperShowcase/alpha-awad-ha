@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(0, 175, 233);
+}
+#header {
+  background-color: rgb(0, 180, 216);
+  font-family: "M PLUS Code Latin", sans-serif;
+}
+
+#content {
+  background-color: rgb(72, 202, 228);
+  font-family: "M PLUS Code Latin", sans-serif;
+}
+#games {
+  background-color: rgb(0, 119, 182);
+  font-family: "M PLUS Code Latin", sans-serif;
+}
+#QandA {
+  background-color: rgb(0, 92, 212);
+  font-family: "M PLUS Code Latin", sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111;
+}
